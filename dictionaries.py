@@ -6,6 +6,4 @@ names = {'Harry': 22,
 
 print(names['prem'])
 names['prem'] = 25
-print(names['prem'])
-print(names.keys())
-print(names.values())
+print(f"{names['prem']} - {names.keys()} - {names.values()}")
